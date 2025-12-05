@@ -1,0 +1,27 @@
+baseURL = "https://spycat.blog/"
+languageCode = "en-us"
+title = "Spycat Security"
+theme = "terminal"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  themeColor = "green"
+  fullWidthTheme = false
+  centerTheme = false
+
+  [params.logo]
+    logoText = "$ ./spycat.sh"
+    logoHomeLink = "/"
+    cursor = true
+
+  [params.menu]
+    [[params.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about"
+    [[params.menu.main]]
+      identifier = "posts"
+      name = "Writeups"
+      url = "/posts"
