@@ -8,7 +8,7 @@ theme = "terminal"
 
 [params]
   # "green", "orange", "blue", "red", "pink"
-  themeColor = "green"
+  themeColor = "blue"
   fullWidthTheme = false
   centerTheme = false
 
