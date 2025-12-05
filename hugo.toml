@@ -7,7 +7,7 @@ theme = "terminal"
   pagerSize = 5
 
 [params]
-  themeColor = "green"
+  themeColor = "blue"
   fullWidthTheme = false
   centerTheme = false
 
