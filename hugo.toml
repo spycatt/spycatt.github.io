@@ -7,9 +7,18 @@ theme = "terminal"
   pagerSize = 5
 
 [params]
+  # "green", "orange", "blue", "red", "pink"
   themeColor = "blue"
   fullWidthTheme = false
   centerTheme = false
+
+  # Social Links
+  [params.github]
+    username = "spycatt"
+  [params.linkedin]
+    username = "anas-aljamal"
+  [params.email]
+    email = "contact@spycat.blog"
 
   [params.logo]
     logoText = "$ ./spycat.sh"
