@@ -3,22 +3,12 @@ languageCode = "en-us"
 title = "Spycat Security"
 theme = "terminal"
 
-[pagination]
-  pagerSize = 5
-
+# This forces the date to look like "30-08-2025" (Like hg8.sh)
 [params]
-  # "green", "orange", "blue", "red", "pink"
-  themeColor = "blue"
+  themeColor = "green"
   fullWidthTheme = false
   centerTheme = false
-
-  # Social Links
-  [params.github]
-    username = "spycatt"
-  [params.linkedin]
-    username = "anas-aljamal"
-  [params.email]
-    email = "contact@spycat.blog"
+  dateFormat = "02-01-2006"
 
   [params.logo]
     logoText = "$ ./spycat.sh"
@@ -32,5 +22,9 @@ theme = "terminal"
       url = "/about"
     [[params.menu.main]]
       identifier = "posts"
-      name = "Writeups"
+      name = "Posts"
       url = "/posts"
+
+  # Social links (Optional - allows you to add icons later)
+  [params.twitter]
+    username = ""
