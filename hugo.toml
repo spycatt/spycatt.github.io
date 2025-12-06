@@ -2,13 +2,23 @@ baseURL = "https://spycat.blog/"
 languageCode = "en-us"
 title = "Spycat Security"
 theme = "terminal"
+paginate = 10
 
-# This forces the date to look like "30-08-2025" (Like hg8.sh)
 [params]
+  # 1. Force the Green Color
   themeColor = "green"
+
+  # 2. Force the "List" Layout (Like hg8.sh)
+  # This hides the full text and only shows Title + Date
+  showFullContent = false
+  readingTime = false
+  
+  # 3. Match the Date Format (dd-mm-yyyy)
+  dateFormat = "02-01-2006"
+
+  # 4. Layout Settings
   fullWidthTheme = false
   centerTheme = false
-  dateFormat = "02-01-2006"
 
   [params.logo]
     logoText = "$ ./spycat.sh"
@@ -22,9 +32,5 @@ theme = "terminal"
       url = "/about"
     [[params.menu.main]]
       identifier = "posts"
-      name = "Posts"
+      name = "Writeups"
       url = "/posts"
-
-  # Social links (Optional - allows you to add icons later)
-  [params.twitter]
-    username = ""
